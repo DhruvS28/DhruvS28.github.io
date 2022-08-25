@@ -1,51 +1,14 @@
-(function(){
 
-  window.sr = ScrollReveal();
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelectorAll(".nav__link");
 
-  if ($(window).width() < 768) {
+navToggle.addEventListener("click", () => {
+    document.body.classList.toggle("nav-open")
+});
 
-    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
-      $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
-    }
 
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        document.body.classList.remove("nav-open");
     });
-
-  } else {
-    
-    sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-  }
-  
-  sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-
 });

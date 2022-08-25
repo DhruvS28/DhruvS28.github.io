@@ -28,7 +28,7 @@
 	<!-- Header -->
 	<header>
 		<div class="logo">
-			<img src="imgs/Logo.png" alt="Logo Picture" style="width: 100px; margin: 0.5% 0 0 0.5%;">
+			<img src="imgs/Logo.png" alt="Logo Picture" style="">
 		</div>
 		<button class="nav-toggle" aria-label="toggle navigation">
 			<span class="hamburger"></span>
@@ -38,21 +38,21 @@
 			<ul class="nav__list">
 				<li class="nav__item"><a href="#intro" class="nav__link">Intro</a></li>
 				<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-				<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
 				<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
 			</ul>
 		</nav>
-
 	</header>
 
 	<!-- Introduction -->
 	<section class="intro" id="intro">
 		<h1 class="section__title section__title--intro">
-			Hey, I am <strong>Dhruv Sharma</strong>
+			Hey there, I'm <strong>Dhruv</strong>
 		</h1>
-		<p class="section__subtitle section__subtitle--intro">Computer Science Major</p>
+		<p class="section__subtitle section__subtitle--intro"><u>Computer Science Major</u><br><span class="minors">Mathematics Minor <br> Psychology Minor </span></p>
 		<img src="imgs/ID_Pic.jpg" alt="ID Picture" class="intro__img">
 	</section>
+	
 	<br>
 
 	<!-- Skills -->
@@ -61,63 +61,58 @@
 
 		<div class="skills">
 			<div class="skill">
-				<h3>Game Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<h3>App & Game Design</h3>
+				<p>
+					<ul class="content-skills">
+						<li>Scratch</li>
+						<li>Pygame</li>
+						<li>Photoshop</li>
+						<li>Pixel Art</li>
+						<li>UI/UX</li>
+						<li>C#</li>
+						<li class="order-first">Unity</li>
+					</ul>
 				</p>
 			</div>
 
 			<div class="skill">
-				<h3>Web Dev</h3>
-				<p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<h3>Software Development</h3>
+				<p>
+					<ul class="content-skills">
+						<li>Java</li>
+						<li>C</li>
+						<li>SQL</li>
+						<li>OOP</li>
+						<li>Data Stuctures</li>
+						<li>Algorithms</li>
+						<li>Programming Principles</li>
+						<li>Python</li>
+					</ul>
 				</p>
 			</div>
 
 			<div class="skill">
-				<h3>Web Dev</h3>
-				<p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<h3>Full Stack</h3>
+				<p>
+					<ul class="content-skills">
+						<li>CSS3</li>
+						<li>HTML5</li>
+						<li>React</li>
+						<li>Flask</li>
+						<li>Node.js</li>
+						<li>PostgreSQL</li>
+						<li>JavaScript</li>
+					</ul>
 				</p>
 			</div>
 		</div>
-
-
-<!-- 		<div class="skills">
-			<div class="skill">
-				<h3>Game Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-			</div>
-		</div> -->
 	</section>
-<br>
-		<section class="my-skills" id="skills">
-		<div class="skills">
-			<div class="skill">
-				<h3>Game Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-			</div>
-		</div>
-	</section>
+	
+	<br>
 
-
-	<!-- About me -->
-	<section class="my-about" id="about">
-		<h2 class="section__title section__title--about">About me</h2>
-		<p class="section__subtitle section__subtitle--about">Fourth Year Student</p>
-
-		<div class="my-about__body">
-			<p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<p>4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</div>
-
-		<img src="imgs/AboutMe_Pic.jpg" alt="Random Picture" class="my-about__img">
-
-	</section>
-
-
-	<!-- My Work -->
+	<!-- My Work: Career and Education -->
 	<section class="my-work" id="work">
-		<h2 class="section__title section__title--work">My Work</h2>
+		<h2 class="section__title section__title--work">My Career and Education</h2>
 		<p class="section__subtitle section__subtitle--work"></p>
 
 		<div class="portfolio">
@@ -128,25 +123,21 @@
 
 					<div class="cd-timeline-content">
 						<h3>TD Bank</h3>
-			        <div class="timeline-content-info">
-			          <span class="timeline-content-info-title">
-			            <i class="fa fa-certificate" aria-hidden="true"></i>
-			            Software Engingeer Intern
-			          </span>
-			          <span class="timeline-content-info-date">
-			            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-			            May 2022 - August 2022
-			          </span>
-			        </div>
-							<p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
-			        <ul class="content-skills">
-			        <li>HTML5</li>
-			        <li>CSS3</li>
-			        <li>JavaScript</li>
-			        <li>jQuery</li>
-			        <li>Wordpress</li>
-			        </ul>
-						</div> <!-- cd-timeline-content -->
+						<div class="timeline-content-info">
+						  <span class="timeline-content-info-title">
+						    <i class="fa fa-certificate" aria-hidden="true"></i>
+						    Software Engingeer Intern
+						  </span>
+						  <span class="timeline-content-info-date">
+						    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+						    May 2022 - Aug 2022
+						  </span>
+						</div>
+						<p>Contributed to tasks ranging from clerical to developmental.</p>
+						<p>Created a number of documented guides for new hires in the future to avoid the same issues as myself. </p>
+						<p>Some level inventory management to find dormant code.</p>
+						<p>Developed a session timeout warning feature using JavaScript.</p>
+					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
 				<div class="cd-timeline-block">
@@ -155,9 +146,73 @@
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
-						<span class="cd-date">Jan 18</span>
-						<h3>Title of section 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+						<h3>University of Saskatchewan</h3>
+						<div class="timeline-content-info">
+						  <span class="timeline-content-info-title">
+						    <i class="fa fa-certificate" aria-hidden="true"></i>
+						    Undergraduate Student
+						  </span>
+						  <span class="timeline-content-info-date">
+						    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+						    Sept 2019 - Apr 2023
+						  </span>
+						</div>
+						<p>Graduating with a major in Computer Science.</p>
+						<p>Minors in both Mathematics and Psychology.</p>
+						<!-- <p>Genre: Adventure, Mystery, Supernatural</p> -->
+						<!-- <p>Links:  -->
+							<!-- <a href="https://dhruvs28.itch.io/shadow-split" class="cd-content__link">Itch.io Page</a> -->
+							<!-- <a href="https://dhruvs28.github.io/Resourcer/" class="cd-content__link">Web GL Build</a> -->
+						<!-- </p> -->
+
+						<!-- <img src="" alt="Uni Poster" class="cd-content__img"> -->
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+			</section> <!-- cd-timeline -->
+		</div>
+
+	</section>
+
+
+	<!-- About me -->
+	<section class="my-about" id="about">
+		<h2 class="section__title section__title--about">About me</h2>
+		<p class="section__subtitle section__subtitle--about">Fourth Year Student</p>
+
+		<div class="my-about__body">
+			<p>Being creative and making something I can be proud of has always been self-fulfilling for me. When I can sit back and look at what I have created
+			and find it to either look highly presentable or perfrom as intended, it really satisfies me.
+			I enjoying doing a variety of tasks that challenge that same creative side and have gathered a range of hobbies as a result.</p>
+			<p>These include me self-learning guitar for six years now, sketching and colouring my favourite newspaper comic, 
+			reading a number of fantasy books, and a range of physical activities like swimming from time to time. My other applicable projects can be seen below.</p>
+		</div>
+
+		<img src="imgs/AboutMe_Pic.jpg" alt="Random Picture" class="my-about__img">
+
+	</section>
+
+
+	<!-- My Work: Projects -->
+	<section class="my-work" id="projects">
+		<h2 class="section__title section__title--work">My Projects</h2>
+		<p class="section__subtitle section__subtitle--work"></p>
+
+		<div class="portfolio">
+			<section id="cd-timeline" class="cd-container">
+				<div class="cd-timeline-block">
+
+					<div class="cd-timeline-img cd-movie">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<span class="cd-date">Jun 2022</span>
+						<h3>ShadowSplit</h3>
+						<p>Unity game made, for a Game Jam, in a week working with a small team.</p>
+						<p>Genre: Adventure, Mystery, Supernatural</p>
+						<p>Links: 
+							<a href="https://dhruvs28.itch.io/shadow-split" class="cd-content__link">Itch.io Page</a>
+							<a href="https://dhruvs28.github.io/Resourcer/" class="cd-content__link">Web GL Build</a>
+						</p>
 
 						<img src="imgs/ShadowSplit_poster.jpg" alt="ShadowSplit Game Poster" class="cd-content__img">
 					</div> <!-- cd-timeline-content -->
@@ -168,9 +223,16 @@
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
-						<span class="cd-date">Jan 24</span>
-						<h3>Title of section 3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+						<span class="cd-date">May 2022</span>
+						<h3>Mousemarine</h3>
+						<p>Unity game made, for a Game Jam, over a weekend working with a medium sized team.</p>
+						<p>Genre: Platformer, Adventure, Comic</p>
+						<p>Links: 
+							<a href="https://goodvibes.itch.io/mousemarine" class="cd-content__link">Itch.io Page</a>
+							<a href="https://dhruvs28.github.io/Mousemarine/" class="cd-content__link">Web GL Build</a>
+						</p>
+
+						<img src="imgs/Mousemarine_poster.jpg" alt="Mousemarine Game Poster" class="cd-content__img">
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
@@ -179,9 +241,16 @@
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
-						<span class="cd-date">Feb 14</span>	
-						<h3>Title of section 4</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<span class="cd-date">Jan 2022 - Mar 2022</span>	
+						<h3>MentalMatter</h3>
+						<p>Mental excercising app that contains games to stimulate brain activity.</p>
+						<p>Genre: Memory, Vocabulary, Rhythm, Math</p>
+						<p>Links: 
+							<a href="https://drive.google.com/drive/folders/1cQzoSuJurMSceZZYIWW4bEWGZlLzCOgV?usp=sharing" class="cd-content__link">Drive Link</a>
+							<a href="https://dhruvs28.github.io/MentalMatter/" class="cd-content__link">Web GL Build</a>
+						</p>
+
+						<img src="imgs/MentalMatter_poster.jpg" alt="MentalMatter App Poster" class="cd-content__img">
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
@@ -190,9 +259,16 @@
 					</div> 
 
 					<div class="cd-timeline-content">
-						<span class="cd-date">Feb 18</span>
-						<h3>Title of section 5</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<span class="cd-date">Jan 2022 - Now</span>
+						<h3>Resourcer</h3>
+						<p>Passion project game used to learn and understand unity better. [semi-WIP]</p>
+						<p>Genre: Incremental, Resouce Managenment</p>
+						<p>Links: 
+							<a href="https://drive.google.com/drive/folders/1h15KzjJVTmUcNuc4DwhhiNQdkaGW5GfQ" class="cd-content__link">Drive Link</a>
+							<a href="https://dhruvs28.github.io/Resourcer/" class="cd-content__link">Web GL Build</a>
+						</p>
+
+						<img src="imgs/Resourcer_poster.jpg" alt="Resourcer Game Poster" class="cd-content__img">
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
@@ -201,45 +277,63 @@
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
-						<span class="cd-date">Feb 26</span>
-						<h3>Final Section</h3>
-						<p>This is the content of the last section</p>
+						<span class="cd-date">Nov 2021</span>
+						<h3>Pets - Lost & Found Site</h3>
+						<p>Project to create a sample service site for those looking for lost pets.</p>
+						<p>Tech Used: Node.js, React, PostgreSQL</p>
+						<p>Links: 
+							<!-- <a href="" class="cd-content__link">Drive Link</a> -->
+							<a href="https://github.com/DhruvS28/Pets-LostFound" class="cd-content__link">Github Page</a>
+						</p>
+
+						<img src="imgs/Pets_L&F.jpg" alt="Pets Website Poster" class="cd-content__img">
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
+
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-movie">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<span class="cd-date">Jun 2019</span>
+						<h3>Book Review Site</h3>
+						<p>Project that makes a sample book review website and uses Goodreads API [now deactivated].</p>
+						<p>Tech Used: Flask, Python, PostgreSQL, JavaScript</p>
+						<p>Links: 
+							<!-- <a href="" class="cd-content__link">Drive Link</a> -->
+							<a href="https://booksreview-api.herokuapp.com/" class="cd-content__link">Website</a>
+							<a href="https://github.com/DhruvS28/BooksReview-api" class="cd-content__link">Github Page</a>
+						</p>
+
+						<!-- <img src="" alt="Website Poster" class="cd-content__img"> -->
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+
 			</section> <!-- cd-timeline -->
 		</div>
 
 	</section>
 
 
-
 	<!-- Footer -->
-	<footer>
-		<a href="mailto:28dhruv03@gmail.com" class="footer__link">28dhruv03@gmail.com</a>
+	<footer class="footer">
+		<a href="mailto:dhs404@usask.ca" class="footer__link">dhs404@usask.ca</a>
 		<ul class="social-list">
 			<li class="social-list__item">
-				<a class="social-list__link" href="https://github.com/DhruvS28">Github
+				<a class="social-list__link" href="https://github.com/DhruvS28">
 					<i class="fa-brands fa-github"></i>
 				</a>
 			</li>
-		</ul>
-
-		<ul class="social-list">
 			<li class="social-list__item">
-				<a class="social-list__link" href="https://github.com/DhruvS28">LinkedIn
+				<a class="social-list__link" href="https://github.com/DhruvS28">
 					<i class="fa-brands fa-linkedin"></i>
 				</a>
 			</li>
 		</ul>
-
-<!-- 		<ul class="social-list">
-			<li class="social-list__item">
-				<a class="social-list__link" href="https://github.com/DhruvS28">Github
-					<i class="fa-brands fa-github"></i>
-				</a>
-			</li>
-		</ul> -->
 	</footer>
+
+
+	<script src="script.js"></script>
 
 </body>
 </html>
