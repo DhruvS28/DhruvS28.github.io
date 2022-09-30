@@ -266,7 +266,7 @@ nav {
 @media (min-width: 600px) {
 	.logo {	max-width: 100px; }
 	.nav-toggle { top: 2em; }
-	strong { margin: 0 25%; }
+	h1 strong { margin: 0 25%; }
 	
 	.section__title--intro  strong { display: block; }
 
