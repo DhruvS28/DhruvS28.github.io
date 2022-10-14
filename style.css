@@ -458,8 +458,8 @@ html, body {
 }
 @media only screen and (min-width: 1000px) {
   #cd-timeline {
-	margin-top: 3em;
-	margin-bottom: 3em;
+	/*margin-top: 3em;*/
+	/*margin-bottom: 3em;*/
   }
   #cd-timeline::before {
 	left: 50%;
