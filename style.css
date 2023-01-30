@@ -71,7 +71,7 @@ img {
 strong { font-weight: bold; }
 
 
-:focus {
+:focus:not(.expand-button) {
   outline: 3px solid var(--clr-text);
   outline-offset: 2px;
 }
@@ -308,7 +308,8 @@ nav {
 
 .my-skills {
 	background-color: var(--clr-accent);
-	background-image: url();
+/*	background: var(--clr-accent), url(imgs/texture.jpg) no-repeat center center fixed;*/
+/*	background-image: url(imgs/texture.png);*/
 	background-size: cover;
 
 	color: var(--clr-text);
@@ -428,6 +429,7 @@ html, body {
   max-width: 1250px;
   margin: 0 auto;
   background: #8e4908;
+  background-image: url(./imgs/texture.png);
   padding: 0 10%;
   border: 3px solid #4f2b04;
   border-radius: 5px;
@@ -728,6 +730,7 @@ html, body {
 
 .footer {
 	background: #eb700c;
+	background-image: url(./imgs/texture1.png);
 	color: var(--clr-text);
 	text-align: center;
 	padding: 0.5em 0;
@@ -763,4 +766,18 @@ html, body {
 
 .social-list__link {
 	padding: 0.25em;
+}
+
+
+
+.expand-button {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+  background: none;
+	border: none;
+}
+
+
+.expanded-content {
+  display: none;
 }

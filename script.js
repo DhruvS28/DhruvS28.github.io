@@ -12,3 +12,16 @@ navLinks.forEach(link => {
         document.body.classList.remove("nav-open");
     });
 });
+
+
+
+const expandButton = document.querySelector('.expand-button');
+const expandedContent = document.querySelector('.expanded-content');
+
+expandedContent.style.display = "none";
+expandButton.style.transform = "rotate(0deg)";
+
+expandButton.addEventListener('click', function() {
+  expandedContent.style.display = expandedContent.style.display === 'none' ? 'block' : 'none';
+  expandButton.style.transform = expandButton.style.transform === 'rotate(0deg)' ? 'rotate(90deg)' : 'rotate(0deg)';
+});
