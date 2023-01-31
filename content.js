@@ -4,6 +4,23 @@ var content_list = [];
 
 // var cl = content_list;
 
+content_list.push(
+	{
+		title: "tester",
+		date: "Dec 2022",
+		description: 
+			[ "GUI project using JavaFX and an MVC design structure.",
+				"Fetures: Multi-select moving/resizing/deleting, stack clip-board, produces a statisitc distance-time chart."
+				// "Genre: Adventure, Mystery, Supernatural",
+			],
+		links: 
+			[
+
+			],
+		image: "imgs/AimTrainer_poster.jpg"
+	}
+)
+
 
 content_list.push(
 	{
@@ -11,14 +28,14 @@ content_list.push(
 		date: "Dec 2022",
 		description: 
 			[ "GUI project using JavaFX and an MVC design structure.",
-				"Fetures: Multi-select moving/resizing/deleting, produces a statisitc distance-time chart"
+				"Fetures: Multi-select moving/resizing/deleting, stack clip-board, produces a statisitc distance-time chart."
 				// "Genre: Adventure, Mystery, Supernatural",
 			],
 		links: 
 			[
 				{
 					text: "GitHub Page",
-					url: "https://"
+					url: "https://github.com/DhruvS28/AimTrainerJavaFX"
 				},
 				{
 					// text: "Web GL Build",
@@ -101,4 +118,4 @@ content_list.push(
 	}
 )
 
-window.content_list = content_list;
+window.c_list = content_list;

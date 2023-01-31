@@ -71,12 +71,6 @@ img {
 strong { font-weight: bold; }
 
 
-:focus:not(.expand-button) {
-  outline: 3px solid var(--clr-text);
-  outline-offset: 2px;
-}
-
-
 /*.btn {
   display: block;
   padding: 0.5em 1.5em;
@@ -765,16 +759,3 @@ html, body {
 	padding: 0.25em;
 }
 
-
-
-.expand-button {
-  transform: rotate(0deg);
-  transition: transform 0.5s;
-  background: none;
-	border: none;
-}
-
-
-.expanded-content {
-  display: none;
-}
