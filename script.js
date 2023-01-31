@@ -41,7 +41,7 @@ function createProjectBlock(date, title, description, links, image) {
 			<h3>${title}</h3>
 			${displayDescription(description)}
 			${displayLinks(links)}
-			<img src="${image}" alt="${title} Poster" class="cd-content__img">
+			${displayImage(image, title)}
 		</div>
 	</div>
 `;
@@ -49,6 +49,8 @@ function createProjectBlock(date, title, description, links, image) {
 
 function displayDescription(description) {
   if (Array.isArray(description)) {
+	if (description.length == 0) return ``;
+
     let html = '';
     description.forEach(item => {
       html += `<p>&#x2022 ${item}</p>`;
@@ -60,8 +62,8 @@ function displayDescription(description) {
 }
 
 function displayLinks(links) {
-	if (links.length == 0)
-		return ``;
+	if (links.length == 0) return ``;
+
 	let html = '<p>Links: ';
 	links.forEach(link => {
 		html += `<a href="${link.url}" class="cd-content__link">${link.text}</a>`;
@@ -70,10 +72,18 @@ function displayLinks(links) {
 	return html;
 }
 
+function displayImage(image, title) {
+	if (image.length == 0) return ``;
+
+	let html = ``;
+	html += `<img src="${image}" alt="${title} Poster" class="cd-content__img">`;
+	return html;
+}
+
 
 document.querySelector("#projects #cd-timeline").innerHTML = ``;
 
-for (var i = 0; i <= c_list.length-1; i++) {
+for (var i = 1; i <= c_list.length-1; i++) {
 	renderContent(i);
 }
 

@@ -1,6 +1,7 @@
 
 
 var content_list = [];
+window.c_list = content_list;
 
 // var cl = content_list;
 
@@ -118,4 +119,66 @@ content_list.push(
 	}
 )
 
-window.c_list = content_list;
+content_list.push(
+	{
+		title: "Resourcer",
+		date: "Jan 2022",
+		description:
+			[ "Passion project game used to learn and understand unity better.",
+				"Basic gathering game. Developed everything involved, excluding level art.",
+				"Genre: Incremental, Resouce Managenment"
+			],
+		links:
+			[
+				{
+					text: "Drive Link",
+					url: "https://drive.google.com/drive/folders/1h15KzjJVTmUcNuc4DwhhiNQdkaGW5GfQ"
+				},
+				{
+					text: "Web GL Build",
+					url: "https://dhruvs28.github.io/Resourcer/"
+				}
+			],
+		image: "imgs/Resourcer_poster.jpg"
+	}
+)
+
+
+content_list.push(
+	{
+		title: "Pets - Lost & Found Site",
+		date: "Nov 2021",
+		description:
+			[ "Project to create a sample service site for those looking for lost pets.",
+				"Technology Used: Node.js, React, PostgreSQL (More in GitHub README).",
+				"Genre: Incremental, Resouce Managenment"
+			],
+		links:
+			[
+				{
+					text: "GitHub Page",
+					url: "https://github.com/DhruvS28/Pets-LostFound"
+				},
+				{
+					text: "Web GL Build",
+					url: "https://dhruvs28.github.io/Resourcer/"
+				}
+			],
+		image: "imgs/Pets_L&F.jpg"
+	}
+)
+
+content_list.push(
+	{
+		title: "N/A",
+		date: "-",
+		description:
+			[ "Prior work likely too dated for current relevant value.",
+				"Will eventually add them in a more hidden manner.",
+			],
+		links:
+			[
+			],
+		image: ""
+	}
+)
