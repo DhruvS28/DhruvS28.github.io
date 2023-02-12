@@ -103,6 +103,7 @@ h3 {font-size: var(--fs-h3);}
 
 .section__title {
 	margin-bottom: auto;
+	padding-left: 0.5em;
 }
 
 /*h1.section__title{
@@ -147,10 +148,14 @@ h3 {font-size: var(--fs-h3);}
 .section__subtitle--about {
 	line-height: 1em;
 	background: var(--clr-accent);
-	padding:  .25em 1em;
+/*	padding:  .25em 1em;*/
 	font-family: var(--ff-secondary);
-	margin-bottom: 1em;
 
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*	margin-bottom: 1em;*/
 }
 
 .intro {
@@ -444,11 +449,11 @@ nav {
 		grid-row: 2;
 
 		position: relative;
-		left: -0.25em;
-		width: calc(100% + 0.5em);
-		padding-left: 1em;
-		padding-right: calc(200px + 4em);
-		border-radius: 10px;
+/*		left: -0.25em;*/
+/*		width: calc(100% + 0.5em);*/
+/*		padding-left: 1em;*/
+/*		padding-right: calc(200px + 4em);*/
+
 	}
 
 	.my-about__img {
@@ -543,18 +548,4 @@ nav {
 
 .social-list__link {
 	padding: 0.25em;
-}
-
-
-
-.expand-button {
-  transform: rotate(0deg);
-  transition: transform 0.5s;
-  background: none;
-	border: none;
-}
-
-
-.expanded-content {
-  display: none;
 }

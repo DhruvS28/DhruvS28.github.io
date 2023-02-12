@@ -38,10 +38,10 @@ content_list.push(
 					text: "GitHub Page",
 					url: "https://github.com/DhruvS28/AimTrainerJavaFX"
 				},
-				{
+				// {
 					// text: "Web GL Build",
 					// url: "https://dhruvs28.github.io/ShadowSplit/"
-				}
+				// }
 			],
 		image: "imgs/AimTrainer_poster.jpg"
 	}
@@ -71,29 +71,29 @@ content_list.push(
 	}
 )
 
-content_list.push(
-	{
-		title: "Mousemarine",
-		date: "May 2022",
-		description:
-			[ "Unity game made, for a Game Jam, over a weekend working with a medium sized team.",
-				"Contribution: Most gameplay mechanics, including visual manipulation.",
-				"Genre: Platformer, Adventure, Comic"
-			],
-		links:
-			[
-				{
-					text: "Itch.io Page",
-					url: "https://goodvibes.itch.io/mousemarine"
-				},
-				{
-					text: "Web GL Build",
-					url: "https://dhruvs28.github.io/Mousemarine/"
-				}
-			],
-		image: "imgs/Mousemarine_poster.jpg"
-	}
-)
+// content_list.push(
+// 	{
+// 		title: "Mousemarine",
+// 		date: "May 2022",
+// 		description:
+// 			[ "Unity game made, for a Game Jam, over a weekend working with a medium sized team.",
+// 				"Contribution: Most gameplay mechanics, including visual manipulation.",
+// 				"Genre: Platformer, Adventure, Comic"
+// 			],
+// 		links:
+// 			[
+// 				{
+// 					text: "Itch.io Page",
+// 					url: "https://goodvibes.itch.io/mousemarine"
+// 				},
+// 				{
+// 					text: "Web GL Build",
+// 					url: "https://dhruvs28.github.io/Mousemarine/"
+// 				}
+// 			],
+// 		image: "imgs/Mousemarine_poster.jpg"
+// 	}
+// )
 
 content_list.push(
 	{
