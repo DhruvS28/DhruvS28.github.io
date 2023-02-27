@@ -331,9 +331,13 @@ html, body {
 /*  border: none;*/
 	border-radius: 10px;
 	border-color: rgba(136, 70, 8, 0.5);
-	letter-spacing: 0.5em;
 	text-align: center;
-	padding-left: 15px;
+/*	padding-left: 15px;*/
+
+	display: flex;
+	justify-content: center;
+	gap: 0.5em;
+/*	align-items: center;*/
 
 /*  border-color: rgba(136, 70, 8, 1);*/
 /*  margin-left: 0 auto 0 auto;*/
@@ -345,19 +349,23 @@ html, body {
 
 @media only screen and (min-width: 400px) {
 .expand-button {
-		letter-spacing: 1em;
-		padding-left: 25px;
+		gap: 1em;
+/*		padding-left: 25px;*/
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.expand-button {
-		letter-spacing: 2em;
-		padding-left: 50px;
+		gap: 2em;
+/*		padding-left: 50px;*/
 	}
 }
 
 
 .expanded-content {
   display: none;
+}
+
+.expand-button-img {
+	max-width: 1em;
 }

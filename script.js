@@ -24,7 +24,10 @@ function createProjectBlock(date, title, description, links, image) {
 			<h3>${title}</h3>
 			<div class="main-description">
 				<p>&#x2022 ${description[0]}</p>
-				<div class="expand-button-div"><button class="expand-button">&#x2B9F &#x2B9F</button></div>
+				<div class="expand-button-div"><button class="expand-button">
+				<img src="imgs/expandArrow.png" class="expand-button-img">
+				<img src="imgs/expandArrow.png" class="expand-button-img">
+				</button></div>
 			</div>
 			<div class="expanded-content" style="display: none;">
 				${displayFullDescription(description)}
@@ -129,7 +132,7 @@ about.addEventListener('click', function() {
 
 	body.style.display = body.style.display === 'none' ? 'block' : 'none';
 	img.style.display = img.style.display === 'none' ? 'block' : 'none';
-	btn.style.display = btn.style.display === 'none' ? 'block' : 'none';
+	btn.style.display = btn.style.display === 'none' ? 'flex' : 'none';
 
 
 
