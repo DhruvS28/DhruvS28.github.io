@@ -22,6 +22,45 @@ content_list.push(
 	}
 )
 
+content_list.push(
+	{
+		title: "Hydrask ~ Figma",
+		date: "Feb 2023",
+		description: 
+			[ "Designathon project to practice UI/UX and medium fidelity prototyping using Figma.",
+				"Prompt: Design a shopping site for a hydro flask."
+			],
+		links: 
+			[
+				{
+					text: "Figma Page",
+					url: "https://www.figma.com/file/iNiiZwDTnenY7FAkVViily/Hydrask?node-id=0%3A1"
+				}
+			],
+		image: "imgs/Hydrask_poster.jpg"
+	}
+)
+
+
+content_list.push(
+	{
+		title: "Python Tkinter Notepad",
+		date: "Jan 2023",
+		description: 
+			[ "GUI project using the standard Python Tkinter library.",
+				"Fetures: Autoload files, rename notes, save notes, multiple scenes at a time."
+			],
+		links: 
+			[
+				{
+					text: "GitHub Page",
+					url: "https://github.com/DhruvS28/NotepadTkinter"
+				}
+			],
+		image: "imgs/NotepadTkinter_poster.jpg"
+	}
+)
+
 
 content_list.push(
 	{
@@ -37,11 +76,7 @@ content_list.push(
 				{
 					text: "GitHub Page",
 					url: "https://github.com/DhruvS28/AimTrainerJavaFX"
-				},
-				// {
-					// text: "Web GL Build",
-					// url: "https://dhruvs28.github.io/ShadowSplit/"
-				// }
+				}
 			],
 		image: "imgs/AimTrainer_poster.jpg"
 	}
@@ -100,7 +135,7 @@ content_list.push(
 		title: "MentalMatter",
 		date: "Jan 2022 - Apr 2022",
 		description:
-			[ "Mental excercising app that contains games to stimulate brain activity.",
+			[ "Mental exercising app that contains games to stimulate brain activity.",
 				"Contribution: Team managing lead, most features and mechanics, and UI/UX.",
 				"Genre: Memory, Vocabulary, Rhythm, Math"
 			],
@@ -158,27 +193,23 @@ content_list.push(
 				{
 					text: "GitHub Page",
 					url: "https://github.com/DhruvS28/Pets-LostFound"
-				},
-				{
-					text: "Web GL Build",
-					url: "https://dhruvs28.github.io/Resourcer/"
 				}
 			],
 		image: "imgs/Pets_L&F.jpg"
 	}
 )
 
-content_list.push(
-	{
-		title: "N/A",
-		date: "-",
-		description:
-			[ "Prior work likely too dated for current relevant value.",
-				"Will eventually add them in a more hidden manner.",
-			],
-		links:
-			[
-			],
-		image: ""
-	}
-)
+// content_list.push(
+// 	{
+// 		title: "N/A",
+// 		date: "-",
+// 		description:
+// 			[ "Prior work likely too dated for current relevant value.",
+// 				"Will eventually add them in a more hidden manner.",
+// 			],
+// 		links:
+// 			[
+// 			],
+// 		image: ""
+// 	}
+// )
