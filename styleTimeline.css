@@ -9,10 +9,10 @@ html, body {
 	width: 90%;
 	max-width: 1250px;
 	margin: 0 auto;
-	background: #8e4908;
+	background: #4b4b4b;
 	background-image: url(./imgs/texture.png);
 	padding: 0 10%;
-	border: 3px solid #4f2b04;
+	border: 3px solid #272727;
 	border-radius: 5px;
 	margin-top: 0;
 }
@@ -37,7 +37,7 @@ html, body {
 	left: 25px;
 	height: 100%;
 	width: 4px;
-	background: #eb700c; /* Timeline line */
+	background: var(--clr-timeline); /* Timeline line */
 }
 
 
@@ -67,10 +67,10 @@ html, body {
 	height: 30px;
 	border-radius: 50%;
 	/* Outer timeline circle */
-	box-shadow: 0 0 0 4px #eb700c, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 0 4px var(--clr-timeline), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img {
-	background: #c05b0a; /* Inner timeline circle */
+	background: #4c2e16; /* Inner timeline circle */
 }
 
 
@@ -78,12 +78,12 @@ html, body {
 	position: relative;
 	margin-left: 60px;
 	margin-right: 30px;
-	background: #f4b31b; /* Inner box */
+	background: var(--clr-accent); /* Inner box */
 	border-radius: 3px;
 	padding: 1em;
 }
 .cd-timeline-content .timeline-content-info {
-	background: #f7d075; /* Inner box header */
+	background: #d8d8d8; /* Inner box header */
 	padding: 5px 10px;
 	color: rgba(61, 28, 1, 0.9);
 	font-size: 12px;
@@ -153,12 +153,12 @@ html, body {
 	height: 0;
 	width: 0;
 	border: 7px solid transparent;
-	border-right: 7px solid #f4b31b;
+	border-right: 7px solid var(--clr-accent);
 }
 
 .cd-content__img {
 	box-shadow: var(--bs);
-	border: 3px solid #4f2b04;
+	border: 3px solid var(--clr-outline);
 	border-radius: 5px;
 
 	max-width: 95%;
@@ -282,7 +282,7 @@ html, body {
 		top: 24px;
 		left: 100%;
 		border-color: transparent;
-		border-left-color: #f4b31b;
+		border-left-color: var(--clr-accent);
 	}
 	.cd-timeline-block:nth-child(odd) .cd-date {
 	/*position: absolute;*/
@@ -303,7 +303,7 @@ html, body {
 		left: auto;
 		right: 100%;
 		border-color: transparent;
-		border-right-color: #f4b31b;
+		border-right-color: var(--clr-accent);
 	}
 .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
 	float: right;
@@ -323,24 +323,14 @@ html, body {
 }
 
 .expand-button {
-/*  transform: rotate(0deg);
-  transition: transform 0.5s;*/
 	background: none;
 	width: 60%;
 
-/*  border: none;*/
 	border-radius: 10px;
-	border-color: rgba(136, 70, 8, 0.5);
 	text-align: center;
-/*	padding-left: 15px;*/
-
 	display: flex;
 	justify-content: center;
 	gap: 0.5em;
-/*	align-items: center;*/
-
-/*  border-color: rgba(136, 70, 8, 1);*/
-/*  margin-left: 0 auto 0 auto;*/
 }
 
 .section__subtitle--about .expand-button {
