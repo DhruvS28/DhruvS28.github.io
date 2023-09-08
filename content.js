@@ -7,18 +7,35 @@ window.c_list = content_list;
 
 content_list.push(
 	{
-		title: "tester",
-		date: "Dec 2022",
+		title: "Test Title",
+		date: "Test Date",
 		description: 
-			[ "GUI project using JavaFX and an MVC design structure.",
-				"Fetures: Multi-select moving/resizing/deleting, stack clip-board, produces a statisitc distance-time chart."
+			[ "Test info main",
+				"Test info subpoint"
 				// "Genre: Adventure, Mystery, Supernatural",
 			],
 		links: 
 			[
 
 			],
-		image: "imgs/AimTrainer_poster.jpg"
+		image: "test.jpg"
+	}
+)
+
+content_list.push(
+	{
+		title: "IngrediGet ~ Figma",
+		date: "March 2023",
+		description: 
+			[ "HCI course group design project to implement UI/UX with a medium fidelity prototype using Figma.",
+				"Contributon: Recipe pages, majority polish and organization."
+				// "Genre: Adventure, Mystery, Supernatural",
+			],
+		links: 
+			[
+
+			],
+		image: "imgs/IngrediGet_poster.jpg"
 	}
 )
 

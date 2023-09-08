@@ -3,40 +3,40 @@ const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".nav__link");
 
 navToggle.addEventListener("click", () => {
-    document.body.classList.toggle("nav-open")
+	document.body.classList.toggle("nav-open")
 });
 
 
 navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        document.body.classList.remove("nav-open");
-    });
+	link.addEventListener("click", () => {
+		document.body.classList.remove("nav-open");
+	});
 });
 
 
 
 function createProjectBlock(date, title, description, links, image) {
-  return `
-  <div class="cd-timeline-block">
-	<div class="cd-timeline-img cd-movie"></div>
-		<div class="cd-timeline-content">
-			<span class="cd-date">${date}</span>
-			<h3>${title}</h3>
-			<div class="main-description">
-				<p>&#x2022 ${description[0]}</p>
-				<div class="expand-button-div"><button class="expand-button">
-				<img src="imgs/expandArrow.png" class="expand-button-img">
-				<img src="imgs/expandArrow.png" class="expand-button-img">
-				</button></div>
-			</div>
-			<div class="expanded-content" style="display: none;">
-				${displayFullDescription(description)}
-				${displayLinks(links)}
-				${displayImage(image, title)}
+	return `
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-movie"></div>
+			<div class="cd-timeline-content">
+				<span class="cd-date">${date}</span>
+				<h3>${title}</h3>
+				<div class="main-description">
+					<p>&#x2022 ${description[0]}</p>
+					<div class="expand-button-div"><button class="expand-button">
+					<img src="imgs/expandArrow.png" class="expand-button-img">
+					<img src="imgs/expandArrow.png" class="expand-button-img">
+					</button></div>
+				</div>
+				<div class="expanded-content" style="display: none;">
+					${displayFullDescription(description)}
+					${displayLinks(links)}
+					${displayImage(image, title)}
+				</div>
 			</div>
 		</div>
-	</div>
-`;
+	`;
 }
 
 function displayFullDescription(description) {
@@ -114,7 +114,7 @@ function renderContent(num) {
 
 
 const about = document.querySelector('#about');
-about.style.marginBottom = "1em";
+about.style.marginBottom = "2.5em";
 // about.style.display = "flex";
 about.addEventListener('click', function() {
 	var selection = window.getSelection().toString();  
@@ -126,14 +126,14 @@ about.addEventListener('click', function() {
 
 	if (btn.style.display === "none" && selection !== "") return;
 
-	about.style.marginBottom = about.style.marginBottom === '1em' ? '0em' : '1em';
+	about.style.marginBottom = about.style.marginBottom === '2.5em' ? '0em' : '2.5em';
 	line.style.paddingBottom = line.style.paddingBottom === '0.5em' ? '0em' : '0.5em';
 	console.log(line.style.paddingBottom)
 
 	body.style.display = body.style.display === 'none' ? 'block' : 'none';
 	img.style.display = img.style.display === 'none' ? 'block' : 'none';
 	btn.style.display = btn.style.display === 'none' ? 'flex' : 'none';
-
-
-
 });
+
+
+// https://css-tricks.com/updating-a-css-variable-with-javascript/
