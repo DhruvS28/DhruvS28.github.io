@@ -14,20 +14,21 @@
 	--fw-reg:	300;
 	--fw-bold:	900;
 
-	--bg-grad: linear-gradient(#fff 50%, #cecece) no-repeat center center fixed;
+	--bg-grad: linear-gradient(#fff 50%, #dedede) no-repeat center center fixed;
 	--clr-text0: #202020;
 	--clr-text1: #ececec;
 
 	--clr-timeline: #151525;
-	--clr-timeline-img: #2d2d3d;
+	--clr-timeline-img: #5d5d6d;
 	--clr-timeline-btn: #2d2d3d;
 	--clr-img-border: #202020;
 
-	--clr-bg0: #ececec;
-	--clr-bg1: #606060;
-	--clr-bg2: #2d2d3d;
+	--clr-bg0: #dcdcdc; /* cards, skills & about sections */
+	--clr-bg1: #ececec; /* timeline section bg */
+	--clr-bg2: #5d5d6d; /* skills */
+	--clr-bg3: #d5d5d5; /* timeline cards */
 
-	--clr-bg3: #2d2d3d;
+/*	--clr-bg3: #2d2d3d;*/
 
 	--clr-footer: #151525;
 	--clr-footer-txt: #ececec;
@@ -181,7 +182,7 @@ h3 {font-size: var(--fs-h3);}
 }
 
 .section__subtitle--about {
-	background: var(--clr-bg1);
+	background: var(--clr-bg0);
 	border: none;
 }
 
@@ -385,12 +386,12 @@ nav {
 /* Technical Skills */
 
 .my-skills {
-	background-color: var(--clr-bg1);
+	background-color: var(--clr-bg0);
 /*	background: var(--clr-bg0), url(imgs/texture.jpg) no-repeat center center fixed;*/
 /*	background-image: url(imgs/texture.png);*/
 	background-size: cover;
 
-	color: var(--clr-text1);
+/*	color: var(--clr-text1);*/
 	text-align: center;
 }
 
@@ -399,7 +400,7 @@ nav {
 }*/
 
 .section__title--skills {
-	color: var(--clr-text1);
+	color: var(--clr-text0);
 	position: relative;
 }
 
@@ -409,7 +410,7 @@ nav {
 	width: 3em;
 	height: 1px;
 	margin: 0.5em auto 0.5em;
-	background: var(--clr-text1);
+	background: var(--clr-text0);
 	opacity: 0.5;
 }
 
@@ -452,7 +453,7 @@ nav {
 	border-radius: 10px;
 
 	max-width: 50%;
-	min-width: 200px;
+	min-width: 180px;
 	margin: 0 auto;
 }
 
@@ -486,7 +487,7 @@ nav {
 
 	.my-about__img {
 		grid-area: img;
-		max-width: 200px;
+/*		max-width: 200px;*/
 		position: relative;
 		z-index: 2;
 		margin: auto -1em;

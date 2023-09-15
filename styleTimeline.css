@@ -78,12 +78,12 @@ html, body {
 	position: relative;
 	margin-left: 60px;
 	margin-right: 30px;
-	background: var(--clr-bg0); /* Inner box */
-	border-radius: 3px;
+	background: var(--clr-bg3); /* Inner box */
+	border-radius: 5px;
 	padding: 1em;
 }
 .cd-timeline-content .timeline-content-info {
-	background: var(--clr-bg3); /* Inner box header */
+	background: var(--clr-timeline-img); /* Inner box header */
 	padding: 5px 10px;
 	color: var(--clr-text1);
 	font-size: 12px;
@@ -153,7 +153,7 @@ html, body {
 	height: 0;
 	width: 0;
 	border: 7px solid transparent;
-	border-right: 7px solid var(--clr-bg0);
+	border-right: 7px solid var(--clr-bg3);
 }
 
 .cd-content__img {
@@ -326,7 +326,7 @@ html, body {
 }
 
 .expand-button {
-	background: var(--clr-timeline-btn);
+	background: var(--clr-timeline-img);
 	width: 60%;
 
 
